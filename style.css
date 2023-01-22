@@ -360,8 +360,9 @@ body::-webkit-scrollbar {
     opacity: .25;
     width: 23%;
     font-size: 22vw;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    fill: teal;
 }
 
 /*=============================================
