@@ -685,10 +685,6 @@ body::-webkit-scrollbar {
     outline: var(--complimentary) solid 2px;
 }
 
-#contact-resume {
-    padding: 0 1rem;
-}
-
 #contact-buttons>* {
     margin-bottom: .55rem;
     font-size: 110%;
