@@ -264,13 +264,6 @@
             }
         },
 
-        // copies pdf link to resume in the clipboard
-        copyToClipboard: function (e) {
-            e.target.textContent = "Lien copié avec succès!";
-            e.target.style.backgroundColor = "var(--complimentary)";
-            navigator.clipboard.writeText(document.URL.split("#")[0] + "assets/download/cv-ilya-smirnov.pdf");
-        },
-
         // open the detailed project description
         detailedProjectOpen: function (e) {
             document.querySelector(`.projects-detailed[data-project="${e.target.closest(".projects-card").dataset.project}"]`).style.display = "block";
@@ -315,8 +308,6 @@
 
             // cross-platform ev listeners
             document.querySelector("#about-nav>ul").addEventListener("click", PTF.aboutNavigation);
-
-            document.querySelector('#resume-share').addEventListener("click", PTF.copyToClipboard);
 
             document.querySelector('#socials svg:first-child').addEventListener("click", PTF.themeSwitcher);
 

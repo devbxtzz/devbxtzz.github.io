@@ -717,7 +717,10 @@ body::-webkit-scrollbar {
     }
 
     #landing p {
-        font-size: 1.4rem;
+        font-size: 1rem;
+    }
+    #landing-icons {
+        display: none;
     }
 }
 
