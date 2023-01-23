@@ -27,8 +27,8 @@
         // dark/light theme switcher
         themeSwitcher: function () {
             PTF.colors = PTF.colors.reverse();
-            document.querySelector(':root').style.setProperty('--dark-theme', PTF.colors[1]);
-            document.querySelector(':root').style.setProperty('--light-theme', PTF.colors[0]);
+            document.querySelector(':root').style.setProperty('--dark-theme', PTF.colors[0]);
+            document.querySelector(':root').style.setProperty('--light-theme', PTF.colors[1]);
         },
 
         // applies z-index to every page in descendent order

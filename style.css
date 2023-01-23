@@ -20,7 +20,7 @@ __Media Queries
 =============================================*/
 
 html {
-    font-size: 15px;
+    font-size: 20px;
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
@@ -333,7 +333,7 @@ body::-webkit-scrollbar {
 }
 
 #landing-text {
-    width: 66%;
+    width: 60%;
 }
 
 #landing-keywords {
@@ -348,7 +348,7 @@ body::-webkit-scrollbar {
 }
 
 #landing p {
-    font-size: 1.9rem;
+    font-size: 1.2rem;
     font-weight: 300;
     width: 66%;
     text-align: justify;
@@ -881,7 +881,7 @@ body::-webkit-scrollbar {
         margin: 0 0 5vh 0;
     }
 
-    /*----------  Langing Section  ----------*/
+    /*----------  Landing Section  ----------*/
 
     #landing-text {
         width: 89%;
