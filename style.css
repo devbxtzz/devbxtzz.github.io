@@ -33,7 +33,7 @@ html {
 }
 
 :root {
-    --light-theme: whitesmoke;
+    --light-theme: #fff;
     --dark-theme: #012;
     --gray-accent: cyan;
     --complimentary: teal;
