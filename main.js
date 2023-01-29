@@ -3,7 +3,7 @@
 
         allSections: document.querySelectorAll(".page"),
         sectionURL: document.URL.split("#")[1],
-        colors: ['#0e0e0e', '#fafafa'],
+        colors: ['#012', '#fff'],
         mobileWidth: 810,
         mobileMode: window.outerWidth < 810,
 
